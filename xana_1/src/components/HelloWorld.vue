@@ -1,13 +1,14 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>
+    <h2>
       Aliviando el Sufrimiento Humano
-    </p>
+    </h2>
     <p>
       Vamos a la raíz de la depresion, ansiedad, dependencia o problemas de conducta , estamos para apoyarte.
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
+    <a href="#about" class="btn-get-started scrollto">Comienza Aqui</a>
+
     <h3>Installed CLI Plugins</h3>
     <ul>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>

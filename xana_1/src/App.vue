@@ -1,7 +1,12 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Inicio</router-link> |
+    <router-link to="/about">Acerca de Nosotros</router-link> |
+    <router-link to="/servicio">Servicios</router-link> |
+    <router-link to="/portafolio">Portafolio</router-link> |
+    <router-link to="/equipo">Equipos</router-link> |
+    <router-link to="/contacto">Contactos</router-link> |
+    <router-link to="/menu">Menu</router-link>
   </nav>
   <router-view/>
 </template>
