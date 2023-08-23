@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <router-link to ="/" class="navbar-brand" >XANACT</router-link>
+    <router-link to ="/" class="navbar-brand" ><h1><b>Xaná</b></h1> </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -17,14 +17,12 @@
           <router-link to ="/servicio"  class="nav-link" >Servicios</router-link>
         </li>
         <li class="nav-item">
-          <router-link to ="/portafolio"   class="nav-link" >Portafolio</router-link>
+          <router-link to ="/cursos"   class="nav-link" >Cursos</router-link>
         </li>
         <li class="nav-item">
           <router-link to ="/equipo"  class="nav-link" >Equipos</router-link>
         </li>
-        <li class="nav-item">
-          <router-link to ="/contacto"  class="nav-link" >contactos</router-link>
-        </li>
+    
  
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -68,6 +66,28 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #171717;
+}
+
+nav {
+  padding: 30px;
+}
+
+nav a {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+nav a.router-link-exact-active {
+  color: #ffffff;;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: bold;
+}
+.bg-light {
+    background-color: #2d6760!important;
 }
 </style>
