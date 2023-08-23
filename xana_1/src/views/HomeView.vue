@@ -1,18 +1,28 @@
 <template>
+
   <div class="home">
+
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Bienvenidos a XANA"/>
-  </div>
+  <h1>"Bienvenidos a XANA"</h1>
+
+
+    <h2>
+      Aliviando el Sufrimiento Humano
+    </h2>
+    <p>
+      Vamos a la raíz de la depresion, ansiedad, dependencia o problemas de conducta , estamos para apoyarte.
+    </p>
+    <a href="#about" class="btn-get-started scrollto">Comienza Aqui</a>
+    </div>
+
+
+
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
-export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
-}
 </script>
+<style>
+
+</style>

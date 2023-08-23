@@ -1,15 +1,22 @@
 <template>
-  <nav>
-    <router-link to="/">Inicio</router-link> |
-    <router-link to="/about">Acerca de Nosotros</router-link> |
-    <router-link to="/servicio">Servicios</router-link> |
-    <router-link to="/portafolio">Portafolio</router-link> |
-    <router-link to="/equipo">Equipos</router-link> |
-    <router-link to="/contacto">Contactos</router-link> |
-    <router-link to="/menu">Menu</router-link>
-  </nav>
+<navi></navi>
+
   <router-view/>
 </template>
+
+<script>
+// @ is an alias to /src
+import navi from '@/components/NavComp.vue'
+export default {
+  name: 'HomeView',
+  components: {
+    navi,
+
+
+  },
+}
+</script>
+
 
 <style>
 #app {
