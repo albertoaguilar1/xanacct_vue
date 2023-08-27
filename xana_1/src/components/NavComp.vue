@@ -1,7 +1,9 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <router-link to ="/" class="navbar-brand" ><h1><b>Xaná</b></h1> </router-link>
+  <div class="container-fluid">   
+     <router-link to ="/" class="navbar-brand" >
+      <img src="../assets/logo.png" alt="Xaná" width="50" height="44">
+      </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -22,7 +24,7 @@
         </li>
     
  
-        <li class="nav-item dropdown">
+     <!--   <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Menu
           </a>
@@ -32,20 +34,16 @@
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" >Something else here</a></li>
           </ul>
-        </li>
+        </li> -->
 
       </ul>
-      <form class="d-flex">
+      <!--   <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      </form> -->
     </div>
   </div>
 </nav>
-
-    
-
-
 </template>
 
 
