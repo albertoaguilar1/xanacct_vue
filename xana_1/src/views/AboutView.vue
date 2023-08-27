@@ -1,31 +1,39 @@
 <template>
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Acerca de nosotros</h2>
-        </div>
-      
-        <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2">
-            <img src="../assets/img/about-img.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1">
-            <h3>Aqui es donde te cuento que  xana es un centro especializado bla bla.</h3>
-            <p class="fst-italic">
-              Podemos haces esto y esto otro 
-            </p>
-            <ul>
-              <li><i class="bi bi-check2-circle"></i> punto numero uno somos chingones en lo que hacemos.</li>
-              <li><i class="bi bi-check2-circle"></i> punto mnumero dos somo dos veces mas chingones.</li>
-              <li><i class="bi bi-check2-circle"></i> punto numero somo chidos .</li>
-            </ul>
-            <p>
-              bla bla bla bla bls 
-            </p>
-          </div>
-        </div>
-
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-title">
+        <h2>Acerca de nosotros</h2>
       </div>
-    </section>
+
+      <div class="row">
+        <h3>
+          Somos un centro de atención terapéutica orientado al diagnóstico, rehabilitación
+          y prevención de distintos cuadros clínicos que afectan la salud.
+        </h3>
+        <p class="fst-italic">
+          Nuestras intervenciones se planean y ejecutan desde un enfoque integrativo de
+          los especialistas.
+        </p>
+        <ul>
+          <li>
+            <i class="bi bi-check2-circle"></i> Misión: Ser un centro líder en la atención
+            terapéutica al usuario en servicios de salud, con un enfoque de cooperación
+            estrecha entre los distintos profesionales
+          </li>
+          <li>
+            <i class="bi bi-check2-circle"></i> Visión: Ser un referente a nivel nacional
+            e internacional en la intervención terapéutica transdisciplinar de servicios
+            de salud y en la producción de evidencia científica.
+          </li>
+          <li>
+            <i class="bi bi-check2-circle"></i> Valores: Excelencia, Trabajo en equipo,
+            Ética, Honestidad, Pasión y Humanismo.
+          </li>
+        </ul>
+        <p>Tu bienestar es prioridad para nosotros</p>
+      </div>
+    </div>
+
+    <div class="container"></div>
+  </section>
 </template>

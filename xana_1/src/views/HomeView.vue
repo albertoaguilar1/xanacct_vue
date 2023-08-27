@@ -1,33 +1,33 @@
 <template>
   <div class="home">
     <section id="home">
-    <div class="hero-container">
-  
-      <h1>Bienvenidos a Xaná</h1>
-      <h2>Centro Terapéutico Transdisciplinar</h2><h2>
-        </h2><h2>
-        Podemos ayudarte: atención presencial y en línea</h2>
-      <a href="#about" class="btn-get-started scrollto">Comunícate con nosotros</a>
-    </div>
-
-  </section>
-</div>
-
+      <div class="hero-container">
+        <h1>Bienvenidos a Xaná</h1>
+        <h2>Centro Terapéutico Transdisciplinar</h2>
+        <h2></h2>
+        <h2>Podemos ayudarte: atención presencial y en línea</h2>
+        <a
+          href="https://api.whatsapp.com/send?phone=522214326262&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20."
+          class="btn-get-started scrollto"
+          target="_blank"
+          >Comunícate con nosotros
+        </a>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
 // @ is an alias to /src
-
 </script>
 <style>
-
-.home{
+.home {
   width: 100%;
-    height: 75vh;
-    background: url(../assets/img/hero-background.jpg) top center;
-    background-size: cover;
-    position: relative;
-    margin-bottom: -80px;
+  height: 75vh;
+  background: url(../assets/img/hero-background.jpg) top center;
+  background-size: cover;
+  position: relative;
+  margin-bottom: -80px;
 }
 
 /*--------------------------------------------------------------
