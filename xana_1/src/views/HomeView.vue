@@ -1,5 +1,8 @@
 <template>
+
+
   <div class="home">
+
     <section id="home">
       <div class="hero-container">
         <h1>Bienvenidos a Xaná</h1>
@@ -13,13 +16,15 @@
           >Comunícate con nosotros
         </a>
       </div>
+
+
+
     </section>
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
-</script>
+
+
 <style>
 .home {
   width: 100%;

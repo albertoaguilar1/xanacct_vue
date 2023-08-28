@@ -2,14 +2,13 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">   
      <router-link to ="/" class="navbar-brand" >
-      <img src="../assets/logo.png" alt="Xaná" width="50" height="44">
+      <img src="../assets/logo-header.png" alt="Xaná" width="110" height= "100">
       </router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-   
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
         <li class="nav-item">
           <router-link to ="/about" class="nav-link" >Acerca de nosotros</router-link>
         </li>
@@ -22,6 +21,10 @@
         <li class="nav-item">
           <router-link to ="/equipo"  class="nav-link" >Equipos</router-link>
         </li>
+        <li class="nav-item">        
+          <a class="nav-link"  href="#contacto">Contacto</a>
+        </li>
+
     
  
      <!--   <li class="nav-item dropdown">
@@ -85,5 +88,41 @@ nav a.router-link-exact-active {
 }
 .bg-light {
     background-color: #2d6760!important;
+}
+
+
+
+nav a[data-v-5795fbd2] {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+a[data-v-5795fbd2] {
+    color: #171717;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+.navbar-nav {
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
 </style>

@@ -1,6 +1,5 @@
 <template>
   <navi></navi>
-
   <router-view />
   <contactoo></contactoo>
   <maps></maps>
@@ -34,6 +33,9 @@ export default {
     maps,
   },
 };
+
+
+
 </script>
 
 <style>

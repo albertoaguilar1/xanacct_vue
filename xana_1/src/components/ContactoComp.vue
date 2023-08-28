@@ -10,7 +10,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6">
             <div class="contact-about">
-              <h3>Xaná</h3>
+              <a ><img src="/img/logo-header.0e4d4f0b.png" alt="Xaná" width="110" height="100" data-v-5795fbd2=""></a>
               <p> Centro Terapéutico Transdisciplinar</p>
               <div class="social-links">
                 <a href="https://www.facebook.com/xana.ctt" class="facebook" target="blank"><i class="bi bi-facebook"></i></a>
@@ -46,4 +46,5 @@
         </div>
 </div>
 </section>
+
       </template>

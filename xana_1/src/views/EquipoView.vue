@@ -3,9 +3,8 @@
     <div class="container">
       <div class="section-title">
         <h2>Nuestro Equipo</h2>
-        <p>y aqui mencionamos los chingon del equipo y los logtos individuales</p>
+        <p>Conócenos</p>
       </div>
-
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6">
           <div class="member">
@@ -19,9 +18,9 @@
               internacionales.
             </p>
             <div class="social">
-              <a href="https://www.facebook.com/EliasHdzC?mibextid=9R9pXO"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.facebook.com/EliasHdzC?mibextid=9R9pXO"    target="_blank"><i class="bi bi-facebook"></i> </a>
               <a href=""><i class="bi bi-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/el%C3%ADas-hern%C3%A1ndez-cruz-552a6b245/"><i class="bi bi-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/el%C3%ADas-hern%C3%A1ndez-cruz-552a6b245/"    target="_blank"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
         </div>
@@ -39,7 +38,7 @@
               desde hace 8 años.
             </p>
             <div class="social">
-              <a href="https://www.facebook.com/TerapeutaCelesteSotelo"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.facebook.com/TerapeutaCelesteSotelo"    target="_blank"><i class="bi bi-facebook"></i></a>
               <a href=""><i class="bi bi-instagram"></i></a>
               <a href=""><i class="bi bi-linkedin"></i></a>
             </div>
