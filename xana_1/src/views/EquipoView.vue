@@ -8,7 +8,7 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6">
           <div class="member">
-            <img src="../assets/img/equipo/team-1.jpg" alt="" />
+            <img src="../assets/img/equipo/team-1.png" alt="" />
             <h4>Elías Hernández Cruz</h4>
             <span>Dr. en Psicología</span>
             <p>
@@ -27,7 +27,7 @@
 
         <div class="col-lg-4 col-md-6">
           <div class="member">
-            <img src="../assets/img/equipo/team-2.jpg" alt="" />
+            <img src="../assets/img/equipo/team-2.png" alt="" />
             <h4>Celeste Sotelo Gutiérrez</h4>
             <span>Licenciada en Comunicación Humana</span>
             <p>
