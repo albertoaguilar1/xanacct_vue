@@ -10,16 +10,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
         <li class="nav-item">
-          <router-link to ="/about" class="nav-link" >Acerca de nosotros</router-link>
+          <router-link to ="/servicio" class="nav-link" >Servicios</router-link>
         </li>
         <li class="nav-item">
-          <router-link to ="/servicio"  class="nav-link" >Servicios</router-link>
+          <router-link to  ="/about" about class="nav-link" >Acerca de nosotros</router-link>
         </li>
         <li class="nav-item">
           <router-link to ="/cursos"   class="nav-link" >Cursos</router-link>
         </li>
         <li class="nav-item">
-          <router-link to ="/equipo"  class="nav-link" >Equipos</router-link>
+          <router-link to ="/equipo"  class="nav-link" >Equipo</router-link>
         </li>
         <li class="nav-item">        
           <a class="nav-link"  href="#contacto">Contacto</a>
@@ -65,7 +65,7 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #171717;
+  color: #5b5b5b;
 }
 
 nav {
@@ -74,27 +74,27 @@ nav {
 
 nav a {
   font-weight: bold;
-  color: #ffffff;
+  color: #5b5b5b;
 }
 
 nav a.router-link-exact-active {
-  color: #ffffff;;
+  color: #5b5b5b;;
   font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #ffffff;
+    color: #5b5b5b;
     font-weight: bold;
 }
 .bg-light {
-    background-color: #2d6760!important;
+    background-color: #ffffff!important;
 }
 
 
 
 nav a[data-v-5795fbd2] {
     font-weight: bold;
-    color: #ffffff;
+    color: #40798c;
 }
 
 a[data-v-5795fbd2] {

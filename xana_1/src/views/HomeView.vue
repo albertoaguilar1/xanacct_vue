@@ -4,11 +4,14 @@
   <div class="home">
 
     <section id="home">
-      <div class="hero-container">
-        <h1>Bienvenidos a Xaná</h1>
-        <h2>Centro Terapéutico Transdisciplinar</h2>
-        <h2></h2>
-        <h2>Podemos ayudarte: atención presencial y en línea</h2>
+      <div class="hero-container ">
+        <div class="btn-get-second"> <h3><b>Bienvenido a Xaná Centro Terapéutico Transdisciplinar</b></h3>
+        <h4>Un enfoque completo para tu bienestar</h4></div>
+       <br>
+        <h4>Somos un centro comprometido con tu bienestar integral, ofreciendo una amplia gama de servicios terapéuticos diseñados para todas las edades.</h4>
+       <h4>Nuestro enfoque transdisciplinario nos permite abordar tus necesidades de manera completa y personalizada, garantizando que obtengas la atención que mereces.</h4>
+       <h4>Explora nuestros servicios y conoce a nuestro equipo de profesionales apasionados que están listos para apoyarte.</h4>
+       <br>
         <a
           href="https://api.whatsapp.com/send?phone=522214326262&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20."
           class="btn-get-started scrollto"
@@ -29,7 +32,7 @@
 .home {
   width: 100%;
   height: 75vh;
-  background: url(../assets/img/hero-background.jpg) top center;
+  background: url() top center;
   background-size: cover;
   position: relative;
   margin-bottom: -80px;
@@ -41,7 +44,7 @@
 
 #home:before {
   content: "";
-  background: rgba(112, 185, 176, 0.85);
+  background: rgba(245, 245, 245, 0.85);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -56,7 +59,7 @@
   right: 0;
   display: flex;
   padding-top: 80px;
-  justify-content: center;
+  justify-content: top;
   align-items: center;
   flex-direction: column;
   text-align: center;
@@ -66,14 +69,34 @@
   font-size: 48px;
   font-weight: 300;
   line-height: 56px;
-  color: #fff;
+  color: #5b5b5b;
 }
 .home h2 {
-  color: #eee;
+  color: #5b5b5b;
   margin-bottom: 50px;
   font-size: 20px;
   font-weight: 300;
 }
+
+.home .btn-get-second {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px 10px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  border: 1px solid #cfe0c3;
+  color: #5b5b5b;
+  background: #cfe0c3;
+}
+#home .btn-get-second:hover {
+  background: #cfe0c3;
+  color: #5b5b5b;
+  border: 1px solid #cfe0c3;
+}
+
 .home .btn-get-started {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -83,13 +106,14 @@
   padding: 8px 28px 10px 28px;
   border-radius: 50px;
   transition: 0.5s;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background: #40798c;
 }
 #home .btn-get-started:hover {
-  background: #fff;
-  color: #70b9b0;
-  border: 1px solid #70b9b0;
+  background: #40798c;
+  color: #ffffff;
+  border: 1px solid #ffffff;
 }
 @media (min-width: 1024px) {
   #hero {

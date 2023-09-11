@@ -41,7 +41,7 @@
           <div class="icon"><i class="bi bi-card-checklist"></i></div>
           <h4 class="title"><a href="">Talleres a escuelas</a></h4>
           <p class="description">
-            Estimulación de lenguaje, adquisión de lectura y escritura.
+            Estimulación de lenguaje, adquisición de lectura y escritura.
           </p>
         </div>
         <div class="col-lg-4 col-md-6 icon-box">
@@ -61,7 +61,7 @@
         </div>
         <div class="col-lg-4 col-md-6 icon-box">
           <div class="icon"><i class="bi bi-mortarboard"></i></div>
-          <h4 class="title"><a href="">Asesorías a terapéutas</a></h4>
+          <h4 class="title"><a href="">Asesorías a terapeutas</a></h4>
           <p class="description">
             Gestión de casos clínicos, plan terapéutico, manejo del paciente difícil.
           </p>

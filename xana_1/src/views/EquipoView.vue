@@ -1,7 +1,8 @@
 <template>
-  <section id="equipo" class="equipo">
+  <section id="equipo" class="equipo section-bg">
     <div class="container">
       <div class="section-title">
+
         <h2>Nuestro Equipo</h2>
         <p>Conócenos</p>
       </div>
@@ -47,7 +48,7 @@
 
         <div class="col-lg-4 col-md-6">
           <div class="member">
-            <img src="../assets/img/equipo/team-3.jpeg" alt="" />
+            <img src="../assets/img/equipo/team-3.png" alt="" />
             <h4>Felipe Sotelo Arriaga</h4>
             <span>Licenciado en Administración de Empresas</span>
             <p>

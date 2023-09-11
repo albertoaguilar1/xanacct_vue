@@ -1,6 +1,6 @@
 <template>
   <br><br>
-    <section id="contacto" class="contacto section-bg">
+    <section id="contacto" class="contacto">
           <div class="container">
         <div class="section-title">
           <br>
@@ -24,7 +24,7 @@
             <div class="info">
               <div>
                 <i class="bi bi-geo-alt"></i>
-                <p>Calle Hacienda la laja # 33<br>San Ándres Cholula, Puebla</p>
+                <p>Calle Hacienda la laja # 33<br>San Andrés Cholula, Puebla</p>
               </div>
 
               <div>

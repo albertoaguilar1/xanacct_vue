@@ -1,5 +1,7 @@
 <template>
   <navi></navi>
+  <b-button href="#" variant="primary">Go somewhere</b-button>
+
   <router-view />
   <contactoo></contactoo>
   <maps></maps>
@@ -9,12 +11,14 @@
     href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
   />
   <a
-    href="https://api.whatsapp.com/send?phone=527774608930&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20."
+    href="https://api.whatsapp.com/send?phone=522214326262&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20."
     class="float"
     target="_blank"
   >
     <i class="fa fa-whatsapp my-float"></i>
   </a>
+
+ 
 </template>
 
 <script>
@@ -25,6 +29,7 @@ import pie from "@/components/PieComp.vue";
 import maps from "@/components/MapsComp.vue";
 //import   '@/assets/style.css'
 export default {
+  compatConfig: { MODE: 3 },
   name: "HomeView",
   components: {
     navi,
@@ -89,7 +94,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f2f9f8;
+  background-color: #f5f5f5;
 }
 
 .section-title {
@@ -193,10 +198,10 @@ section {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #2d6760;
+  background: #5ccced;
 }
 #header.header-scrolled {
-  background: #1d443f;
+  background: #5ccced;
   height: 60px;
 }
 #header .logo h1 {
@@ -240,7 +245,7 @@ section {
 .about ul i {
   font-size: 22px;
   padding-right: 4px;
-  color: #70b9b0;
+  color: #40798c;
   line-height: 0;
 }
 .about p:last-child {
@@ -260,7 +265,7 @@ section {
   margin-bottom: 15px;
 }
 .servicio .icon i {
-  color: #70b9b0;
+  color: #40798c;
   font-size: 42px;
 }
 .servicio .title {
@@ -274,7 +279,7 @@ section {
   transition: 0.3s;
 }
 .servicio .icon-box:hover .title a {
-  color: #70b9b0;
+  color: #40798c;
 }
 .servicio .description {
   line-height: 24px;
@@ -342,14 +347,14 @@ section {
 }
 .cursos #cursos-flters li:hover,
 .cursos #cursos-flters li.filter-active {
-  background: #70b9b0;
+  background: #40798c;
   color: #fff;
 }
 .cursos #cursos-flters li:last-child {
   margin-right: 0;
 }
 .cursos .cursos-wrap {
-  background: #073839;
+  background: #40798c;
   overflow: hidden;
   min-height: 200px;
   position: relative;
@@ -461,7 +466,7 @@ section {
   list-style: none;
 }
 .faq .faq-list li {
-  border-bottom: 1px solid #deefed;
+  border-bottom: 1px solid #e9eff0;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
@@ -474,7 +479,7 @@ section {
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #51a59b;
+  color: #5b5b5b;
   transition: 0.3s;
 }
 .faq .faq-list i {
@@ -494,15 +499,15 @@ section {
   color: #343a40;
 }
 .faq .faq-list .collapsed:hover {
-  color: #70b9b0;
+  color: #5b5b5b;
 }
 .faq .faq-list .collapsed .icon-show {
   display: inline-block;
-  transition: 0.6s;
+  transition: 0.9s;
 }
 .faq .faq-list .collapsed .icon-close {
   display: none;
-  transition: 0.6s;
+  transition: 0.9s;
 }
 
 /*--------------------------------------------------------------
@@ -533,17 +538,17 @@ section {
   padding-top: 10px;
   font-size: 14px;
   font-style: italic;
-  color: #aaaaaa;
+  color: #5b5b5b;
 }
 .equipo .member .social {
   margin-top: 15px;
 }
 .equipo .member .social a {
-  color: #92cac3;
+  color: #40798c;
   transition: 0.3s;
 }
 .equipo .member .social a:hover {
-  color: #3c8b81;
+  color: #40798c;
 }
 .equipo .member .social i {
   font-size: 18px;
@@ -560,7 +565,7 @@ section {
   line-height: 1;
   font-weight: 500;
   letter-spacing: 1px;
-  color: #70b9b0;
+  color: #40798c;
 }
 .contacto .contacto-about p {
   font-size: 14px;
@@ -577,17 +582,17 @@ section {
   justify-content: center;
   font-size: 16px;
   background: #fff;
-  color: #70b9b0;
+  color: #40798c;
   line-height: 0;
   margin-right: 4px;
   border-radius: 50%;
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #70b9b0;
+  border: 1px solid #40798c;
 }
 .contacto .social-links a:hover {
-  background: #70b9b0;
+  background: #40798c;
   color: #fff;
 }
 .contacto .info {
@@ -595,7 +600,7 @@ section {
 }
 .contactoo .info i {
   font-size: 32px;
-  color: #70b9b0;
+  color: #40798c;
   float: left;
   line-height: 1;
 }
@@ -618,7 +623,7 @@ section {
 .contacto .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #70b9b0;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -636,7 +641,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #70b9b0;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -690,9 +695,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #073839;
+  background: #ffffff;
   padding: 30px 0;
-  color: #fff;
+  color: #5b5b5b;
   font-size: 14px;
 }
 #footer .copyright {
@@ -702,6 +707,6 @@ section {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #fff;
+  color: #5b5b5b;
 }
 </style>
