@@ -23,6 +23,110 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/ServiciosView.vue')
   },
+
+
+  
+// Aqui estan los nav link que agregue , por si quieres busacar y borrar rapido 
+
+  {
+    path: '/servicio/servicio1',
+    name: 'servicio1',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Servicio1View.vue')
+  },
+    {
+      path: '/servicio/servicio2',
+      name: 'servicio2',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "about" */ '../views/Servicio2View.vue')
+    },
+      {
+        path: '/servicio/servicio3',
+        name: 'servicio3',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "about" */ '../views/Servicio3View.vue')
+      },
+        {
+          path: '/servicio/servicio4',
+          name: 'servicio4',
+          // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () => import(/* webpackChunkName: "about" */ '../views/Servicio4View.vue')
+        },
+          {
+            path: '/servicio/servicio1',
+            name: 'servicio5',
+            // route level code-splitting
+            // this generates a separate chunk (about.[hash].js) for this route
+            // which is lazy-loaded when the route is visited.
+            component: () => import(/* webpackChunkName: "about" */ '../views/Servicio5View.vue')
+          },
+            {
+              path: '/servicio/servicio6',
+              name: 'servicio6',
+              // route level code-splitting
+              // this generates a separate chunk (about.[hash].js) for this route
+              // which is lazy-loaded when the route is visited.
+              component: () => import(/* webpackChunkName: "about" */ '../views/Servicio6View.vue')
+            },
+              {
+                path: '/servicio/servicio7',
+                name: 'servicio7',
+                // route level code-splitting
+                // this generates a separate chunk (about.[hash].js) for this route
+                // which is lazy-loaded when the route is visited.
+                component: () => import(/* webpackChunkName: "about" */ '../views/Servicio7View.vue')
+              },
+                {
+                  path: '/servicio/servicio8',
+                  name: 'servicio8',
+                  // route level code-splitting
+                  // this generates a separate chunk (about.[hash].js) for this route
+                  // which is lazy-loaded when the route is visited.
+                  component: () => import(/* webpackChunkName: "about" */ '../views/Servicio8View.vue')
+                },
+                  {
+                    path: '/servicio/servicio8',
+                    name: 'servicio8',
+                    // route level code-splitting
+                    // this generates a separate chunk (about.[hash].js) for this route
+                    // which is lazy-loaded when the route is visited.
+                    component: () => import(/* webpackChunkName: "about" */ '../views/Servicio8View.vue')
+                  },
+                    {
+                      path: '/servicio/servicio9',
+                      name: 'servicio9',
+                      // route level code-splitting
+                      // this generates a separate chunk (about.[hash].js) for this route
+                      // which is lazy-loaded when the route is visited.
+                      component: () => import(/* webpackChunkName: "about" */ '../views/Servicio9View.vue')
+                    },
+                      {
+                        path: '/servicio/servicio10',
+                        name: 'servicio10',
+                        // route level code-splitting
+                        // this generates a separate chunk (about.[hash].js) for this route
+                        // which is lazy-loaded when the route is visited.
+                        component: () => import(/* webpackChunkName: "about" */ '../views/Servicio10View.vue')
+                      },
+                        {
+                          path: '/servicio/servicio11',
+                          name: 'servicio11',
+                          // route level code-splitting
+                          // this generates a separate chunk (about.[hash].js) for this route
+                          // which is lazy-loaded when the route is visited.
+                          component: () => import(/* webpackChunkName: "about" */ '../views/Servicio11View.vue')
+                        },
+ // Aqui termina cuidado 
+
+
   {
     path: '/cursos',
     name: 'cursos',
