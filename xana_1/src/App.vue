@@ -285,6 +285,33 @@ section {
   font-size: 14px;
 }
 
+.servicio .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  padding-top: 80px;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.servicio .btn-get-second {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px 10px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  border: 1px solid #cfe0c3;
+  color: #5b5b5b;
+  background: #cfe0c3;
+}
+
 /*--------------------------------------------------------------
 # Call To Action
 --------------------------------------------------------------*/
